@@ -1,0 +1,45 @@
+.container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border: 1px solid black;
+    
+    background-color: rgba(253, 253, 252, 0.541);
+    
+}
+
+.nombre {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.icono {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.pulse {
+    animation: pulse 3s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      font-variation-settings: 'wght' 100;
+    }
+    50% {
+      font-variation-settings: 'wght' 700;
+    }
+    100% {
+      font-variation-settings: 'wght' 100;
+    }
+  }
+
